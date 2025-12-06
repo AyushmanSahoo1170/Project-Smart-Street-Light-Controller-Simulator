@@ -118,7 +118,7 @@ Show table of all lights with their status, intensity, motion, and ambient light
 	(No end - continuous simulation)
 
 7. Implementation (C Code) :
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -243,7 +243,7 @@ void displaySystemStatus(const StreetLight lights[], int numLights)
     printf("------------------------------------------------------\n");
     printf("...Updating in %d second(s)...\n", SIMULATION_DELAY_S);
 }
-*/
+
 8. Output :
 The program clears the screen at each step and prints a table showing:
 	Light ID.
