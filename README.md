@@ -118,6 +118,7 @@ Show table of all lights with their status, intensity, motion, and ambient light
 	(No end - continuous simulation)
 
 7. Implementation (C Code) :
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -130,7 +131,6 @@ Show table of all lights with their status, intensity, motion, and ambient light
 #define NUM_LIGHTS 5              
 #define AMBIENT_LIGHT_THRESHOLD 40 
 #define SIMULATION_DELAY_S 1     
-
 typedef enum 
 {
     OFF,
